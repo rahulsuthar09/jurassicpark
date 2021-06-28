@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="Welcome to JURASSIC PARK ARE YOU READY FOR TRIP Book Trip Events Day 1: Visit Dianasaur Dept. Day 2:Laboratory view Day 3:Helicoptor Trip"
+    />
+    <meta name="author" content="Rahul Suthar"/>
+    <meta name="copyright" content="ENC branch - 2019"/>
+    <meta name="keywords" content="jurassic park, jurassic world,jurassic theme,jurasic park,jurasic world,jurasic,jurassic,park,jungle"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index,follow">
+    <title>Booking | Jurassic Park</title>
+    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="icon" href="assets/images/jungle 24px.png" type="image/gif" sizes="16x16">
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/book.css">
+  </head>
+  <body>
+    <!-- head section  -->
+
+    <header class="header">
+      <nav class="nav" id="nav">
+        <div class="logo-ham">
+          <h2 class="logo">Jurassic Park</h2>
+          <div class="nav-toggle" id="nav-toggle">
+            <i class="bx bx-menu"></i>
+          </div>
+        </div>
+        <div id="nav-menu" class="show">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link home ">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="event.html" class="nav-link event">Events</a>
+            </li>
+            <li class="nav-item">
+              <a href="index.html" class="nav-link galary">Gallary</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link book active">Book</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link about">About</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <section class="section-detail">
+      <h2>Book Your Paas for <span style="color: var(--first-color)">$100</span> only</h2>
+      <form action="" class="form">
+        <div class="detail-form">
+          <div class="inputs">
+            <label for="fname">First Name</label>
+            <input type="text" name="fname" class="input-detail">
+          </div>
+          <div class="inputs">
+            <label for="lname">Last Name</label>
+            <input type="text" name="lname" class="input-detail">
+          </div>
+          <div class="inputs">
+            <label for="email">Email</label>
+            <input type="email" name="mail" class="input-detail">
+          </div>
+          <div class="inputs">
+            <label for="age">Age</label>
+            <input type="number" name="age" class="input-detail">
+          </div>
+          <div class="inputs">
+            <label for="paas">No of Paas</label>
+            <input id="total-pass" type="number" name="pass" class="input-detail" placeholder="$100 for each">
+          </div>
+        </div>
+        <div class="total-form">
+          <button >Book<span id="print-amount"></span></button>
+        </div>
+      </form>
+      
+    </section>
+    <section class="section-detail footer">
+
+      <p><span>Note: </span> Passes will be shared to you via Email</p>
+    </section>
+    
+    <script src="assets/app.js"></script>
+
+  </body>
+  </html>

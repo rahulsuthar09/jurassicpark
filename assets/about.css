@@ -1,0 +1,49 @@
+/* @import url('style.css'); */
+body {
+  background-color: var(--third-color);
+}
+.tech{
+    font-size: 1.75rem;
+}
+
+.tech-knowledge {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background-color: #fff;
+
+}
+.data {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.knowledge {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.data img {
+  height: 2rem;
+  margin-right: var(--mp-3);
+}
+.data p {
+  font-size: 1.25rem;
+}
+
+@media only screen and (min-width: 900px) {
+  .tech-knowledge {
+    flex-direction: row;
+    align-items: baseline;
+  }
+}
