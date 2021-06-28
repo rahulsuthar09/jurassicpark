@@ -246,6 +246,9 @@ font-size: 1.25rem;
   color:var(--second-color);
 
 }
+.grab-ticket:hover a{
+color:var(--second-color);
+}
 .know{
   font-size: var(--normal-font-size);
 }
